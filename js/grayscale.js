@@ -40,3 +40,8 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+// MDB Lightbox Init
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
